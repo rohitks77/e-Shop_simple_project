@@ -1,0 +1,68 @@
+/* Style for the form container */
+form {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form h2{
+    text-align: center;
+    color: red;
+}
+/* Style for form headings */
+h2 {
+   
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for form inputs and select */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+/* Style for submit button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for submit button */
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* mobile numbers div */
+.input-group{
+    width: 100%;
+    display: flex;
+
+}
+.input-group #country{
+    width: 90px;
+}
